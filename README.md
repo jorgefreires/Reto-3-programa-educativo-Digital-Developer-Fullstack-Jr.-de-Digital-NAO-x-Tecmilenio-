@@ -6,9 +6,9 @@ A continuación, se hará una pequeña introducción a la API de Scopus.
 
 ## API de Scopus
 
-La API de Scopus que nos interesa para esta actividad es la llamada Author Retrieval API. Esta recupera un perfil de autor de Scopus pudiendo contener enlaces a los perfiles de búsqueda y afiliación de Scopus. Los perfiles de autor están indexados y se pueden buscar mediante la API de búsqueda de autores. 
+La API de Scopus que nos interesa para esta actividad es la llamada Scopus Search API. Esta recupera un perfil de autor de Scopus pudiendo contener enlaces a los perfiles de búsqueda y afiliación de Scopus. Los perfiles de autor están indexados y se pueden buscar mediante la API de búsqueda de autores. 
 
-¿Cuántos datos se pueden recuperar con la APIKey?: Cada Clave API tiene la capacidad de ejecutar un cierto número de solicitudes de datos de las APIs. Las cuotas, es decir, el número de solicitudes ejecutables, se restablecen cada siete días. En el caso de la Author retrieval API, la cuota semanal es de 5.000 solicitudes y se pueden ejecutar hasta 3 por segundo.
+¿Cuántos datos se pueden recuperar con la APIKey?: Cada Clave API tiene la capacidad de ejecutar un cierto número de solicitudes de datos de las APIs. Las cuotas, es decir, el número de solicitudes ejecutables, se restablecen cada siete días. En el caso de la Author retrieval API, la cuota semanal es de 20.000 solicitudes y se pueden ejecutar hasta 9 por segundo.
 
 Para consultas relacionadas con la cuota se pueden utilizar las siguientes cabeceras:
 
