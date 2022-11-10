@@ -1,4 +1,4 @@
-# Reto 2 del programa educativo Digital Developer Fullstack Jr. de Digital NAO x Tecmilenio
+# Reto 3 del programa educativo Digital Developer Fullstack Jr. de Digital NAO x Tecmilenio
 
 Este repositorio ha sido creado para subir las evidencias de uno de los retos del programa educativo Digital Developer Fullstack Jr. de Digital NAO x Tecmilenio. Dicha evidencia consiste en la creación de una aplicación de escritorio, mediante el uso de Java y la API de Scopus, capaz de leer un archivo JSON y alimentar una base de datos SQL. Se ha utilizado Eclipse como plataforma para desarrollar el código y json.simple como libreria para la lectura de los archivos JSON.
 
