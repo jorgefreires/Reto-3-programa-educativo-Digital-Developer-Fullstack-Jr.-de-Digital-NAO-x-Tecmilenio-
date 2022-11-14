@@ -1,3 +1,5 @@
+//Los autores del 3 al 5 se ponen como comentarios dado que el json obtenido no contiene información
+
 package Main;
 
 import java.io.FileNotFoundException;
@@ -209,8 +211,21 @@ public class Main {
 		controlador8.actualizarVista();
 		controlador9.actualizarVista();
 		controlador10.actualizarVista();
+		
+		//se actualiza el SQL
+		
+		modelo.llenarSql();
+		modelo2.llenarSql();
+		/*modelo3.llenarSql();
+		modelo4.llenarSql();
+		modelo5.llenarSql();*/
+		modelo6.llenarSql();
+		modelo7.llenarSql();
+		modelo8.llenarSql();
+		modelo9.llenarSql();
+		modelo10.llenarSql();
+		
 	}
-
 
 	//método estático que retorna el autor con sus datos
 	
