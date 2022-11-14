@@ -1,4 +1,10 @@
-//Los autores del 3 al 5 se ponen como comentarios dado que el json obtenido no contiene información
+/**
+ * Clase Main que corre el programa
+ * Los autores del 3 al 5 se ponen como comentarios dado que el json obtenido no contiene información
+ * Se utilizan las librerias json.simple y myql connector
+ * @author jorgefreires
+ * @version1.0
+ */
 
 package Main;
 
@@ -31,6 +37,11 @@ public class Main {
 	private static String affiliation_country;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
+		
+		/**
+		* A continuación se realizán las peticiones a la API para que nos devuelva la información de los autores
+		* Una petición por autor
+		*/
 		
 		//URL request 1
 		
@@ -171,6 +182,10 @@ public class Main {
 		FileWriter file10 = new FileWriter("datos10.json");
 		file10.write(response10.body());
 		file10.close();
+		
+		/**
+		* Se van a asignar las clases controlador, modelo y vista para sus diversas funciones
+		*/
 	       		
 		//objeto vista y modelo creado con el método estático 
 	       
@@ -227,7 +242,9 @@ public class Main {
 		
 	}
 
-	//método estático que retorna el autor con sus datos
+	/**
+	* Se van a establecer los métodos (uno por petición) con los que se devuelve el autor y sus datos (aquellos que nos interesan)
+	*/
 	
 	private static Modelo llenarDatosModelo() {
 		
